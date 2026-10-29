@@ -65,12 +65,12 @@ public class Game {
 					String itemName = "";
 					for(int i = 1; i < multcommand.length; i++) {
 						if(i < multcommand.length - 1)
-							itemName += multcommand[i] + " ";
+							itemName += multcommand[i] + "_";
 						else {
 							itemName += multcommand[i];
 						}
 					}
-					location.getItem(itemName).use();
+					inventory(itemName).use();
 				}
 				
 				else if (command.equals("load")) {
@@ -192,6 +192,10 @@ public class Game {
 	
 	public static Room getLocation() {
 		return location;
+	}
+
+	public static ArrayList<Item> getInventory() {
+		return inventory;
 	}
 
 	public static void main(String[] args) {
