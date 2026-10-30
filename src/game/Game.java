@@ -1,4 +1,5 @@
 package game;
+//aasddkjhfdskfjsjkhfksdhfjsdhfkdshfdk
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -70,7 +71,7 @@ public class Game {
 							itemName += multcommand[i];
 						}
 					}
-					inventory(itemName).use();
+					//inventory(itemName).use();
 				}
 				
 				else if (command.equals("load")) {
