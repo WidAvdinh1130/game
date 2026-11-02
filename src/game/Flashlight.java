@@ -17,8 +17,8 @@ public class Flashlight extends Item{
 				Game.print("You are no longer blind");
 			}
 		}
-	else
+	else {
 		Game.print("You can't use it here");
 		}
-
+	}
 }
