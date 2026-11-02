@@ -5,6 +5,7 @@ public class OfficeKey extends Item {
 	public OfficeKey(String n, Boolean c) {
 		super(n, c);
 	}
+	@Override
 	public void use() {
 		if (Game.getLocation().getName().equals("Living Room")) {
 			if (usedTool) {
