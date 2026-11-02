@@ -19,7 +19,6 @@ public class Game {
 
 	public static void runGame() {
 		PrintFileDemo();
-		print("hello");
 		print(location);
 		Scanner input = new Scanner(System.in);
 		String command = "";
